@@ -1,0 +1,32 @@
+# Comandos de Git
+## Comandos iniciales de Git
++ Para clonar el repositorio en nuestra máquina local se usa el siguiente comando:
+```Shell
+git clone [la url del repositorio a clonar]
+```
++ Para ver el estado del repositorio se usa el siguiente comando:
+```Shell
+git status
+```
+
+## Comandos para subir al repositorio (Servidor).
+1. Primero debemos ver el estado de nuestro repositorio.
+```Shell
+git status
+```
+2. Debemos de agregar el nuevo/modificado estado, con el siguiente comando:
+```Shell
+git add [nombre completo y ruta del archivo tal cómo esta escrito]
+```
+2.1 Para agregar **TODOS** los cambios, se usa el siguiente comando:
+```Shell
+git add .
+```
+3. Una vez que se aha agregados los cambios, se puede hacer el commit con el siguiente comando:
+```Shell
+git commit -m "[aquí va un mensaje que va clarificando lo que se realizó]"
+```
+4. Una vez que se tenga el commit, ya se puede realizar el push para ver los cambios.
+```Shell
+git push origin [el nombre de la rama]
+```
