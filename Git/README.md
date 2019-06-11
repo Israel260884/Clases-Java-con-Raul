@@ -30,6 +30,11 @@ git status
 git log
 ```
 
++Para revertir o borrar los ultimos cambios, se usa el siguiente comando:
+```Shell
+git checkout [nombre del archivo o proyecto]
+```
+
 ## Comandos para subir al repositorio (Servidor).
 1. Primero debemos ver el estado de nuestro repositorio.
 ```Shell
