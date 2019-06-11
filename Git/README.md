@@ -37,6 +37,12 @@ git add [nombre completo y ruta del archivo tal cómo esta escrito]
 ```Shell
 git add .
 ```
+
+2.2 También se puede agregar los cambios en un arvicho o proyecto en específico:
+```Shell
+git add [nombre del archivo o proyecto]
+```
+
 3. Una vez que se aha agregados los cambios, se puede hacer el commit con el siguiente comando:
 ```Shell
 git commit -m "[aquí va un mensaje que va clarificando lo que se realizó]"
