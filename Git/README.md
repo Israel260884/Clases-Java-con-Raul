@@ -35,15 +35,22 @@ git log
 git checkout [nombre del archivo o proyecto]
 ```
 
++ Para ver las diferencias de los cambios realizados en el archivo/proyecto, se usa el siguiente comando
+```Shell
+git diff [nombre del archivo/proyecto]
+```
+
 ## Comandos para subir al repositorio (Servidor).
 1. Primero debemos ver el estado de nuestro repositorio.
 ```Shell
 git status
 ```
+
 2. Debemos de agregar el nuevo/modificado estado, con el siguiente comando:
 ```Shell
 git add [nombre completo y ruta del archivo tal cómo esta escrito]
 ```
+
 2.1 Para agregar **TODOS** los cambios, se usa el siguiente comando:
 ```Shell
 git add .
@@ -58,6 +65,7 @@ git add [nombre del archivo o proyecto]
 ```Shell
 git commit -m "[aquí va un mensaje que va clarificando lo que se realizó]"
 ```
+
 4. Una vez que se tenga el commit, ya se puede realizar el push para ver los cambios.
 ```Shell
 git push origin [el nombre de la rama]
