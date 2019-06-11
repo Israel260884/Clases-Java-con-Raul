@@ -30,7 +30,7 @@ git status
 git log
 ```
 
-+Para revertir o borrar los ultimos cambios, se usa el siguiente comando:
++ Para revertir o borrar los ultimos cambios, se usa el siguiente comando:
 ```Shell
 git checkout [nombre del archivo o proyecto]
 ```
