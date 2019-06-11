@@ -19,9 +19,15 @@ git init
 ```Shell
 git clone [la url del repositorio a clonar]
 ```
+
 + Para ver el estado del repositorio se usa el siguiente comando:
 ```Shell
 git status
+```
+
++ Para ver los commits que se han realizado, se usa el siguiente comando:
+```Shell
+git log
 ```
 
 ## Comandos para subir al repositorio (Servidor).
