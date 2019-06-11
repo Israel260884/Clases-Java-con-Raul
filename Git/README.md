@@ -40,6 +40,21 @@ git checkout [nombre del archivo o proyecto]
 git diff [nombre del archivo/proyecto]
 ```
 
++ Para ver la rama (branch) del archivo/proyecto a la cuál estamos, se usa el siguiente comando:
+```Shell
+git branch
+```
+
++ Para agregar una rama en nuestro archivo/proyecto, usamos el siguiente comando:
+```Shell
+git branch [nombre del archivo nuevo/proyecto nuevo]
+```
+
++ Para cambiar de rama (branch) usamos el siguiente comando:
+```Shell
+git checkout [nombre de la rama del archivo/proyecto]
+```
+
 ## Comandos para subir al repositorio (Servidor).
 1. Primero debemos ver el estado de nuestro repositorio.
 ```Shell
