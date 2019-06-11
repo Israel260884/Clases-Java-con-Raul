@@ -38,7 +38,7 @@ git add [nombre completo y ruta del archivo tal cómo esta escrito]
 git add .
 ```
 
-2.2 También se puede agregar los cambios en un arvicho o proyecto en específico:
+2.2 También se puede agregar los cambios en un archivo proyecto en específico:
 ```Shell
 git add [nombre del archivo o proyecto]
 ```
