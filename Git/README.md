@@ -32,7 +32,7 @@ git log
 
 + Para revertir o borrar los ultimos cambios, se usa el siguiente comando:
 ```Shell
-git checkout [nombre del archivo o proyecto]
+git checkout --[nombre del archivo o proyecto]
 ```
 
 + Para ver las diferencias de los cambios realizados en el archivo/proyecto, se usa el siguiente comando
