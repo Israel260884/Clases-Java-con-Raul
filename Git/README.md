@@ -85,3 +85,24 @@ git commit -m "[aquí va un mensaje que va clarificando lo que se realizó]"
 ```Shell
 git push origin [el nombre de la rama]
 ```
+
+## Comandos para gestionar ramas
++ Para crear una nueva rama, se usa el siguiente comando:
+```Shell
+git branch [nombre de la nueva rama]
+```
+
++ Para ver las ramas en nuestro local, se usa el siguiente comando:
+```Shell
+git branch
+```
+
++ Para cambiarse de rama, se usa el siguiente comando:
+```Shell
+git checkout [nombre de la rama]
+```
+
++ Para publicar la rama al servidor, se usa el siguiente comando:
+```Shell
+git push origin [nombre de la rama]
+```
