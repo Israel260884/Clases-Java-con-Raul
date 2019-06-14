@@ -122,3 +122,13 @@ git checkout -b [nombre de la rama].
 git fetch origin
 git branch - r
 ```
+## Integración de ramas con **Merge**
++ Para integrar ramas con *Merge*, usamos el siguiente comando:
+```Shell
+git merge [nombre de la rama que queremos traer los cambios]
+```
+> Nota: Debemos colocarnos en la rama en dónde queremos hacer los cambios.
+
+> Nota 2: Cuando realizamos el *Merge* y no hay conflictos, podemos hacer el *push* sin problemas.
+
+> Nota 3: Cuando haya conflictos, hay que solucionarlos (abrir el archivo, revisar el status, revisar la rama, etc).
