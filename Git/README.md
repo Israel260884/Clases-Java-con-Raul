@@ -1,6 +1,6 @@
 # Comandos de Git
 ## Comandos iniciales de Git
-+Para notificar a nuestro repositorio local, se usa el siguiente comando:
++ Para notificar a nuestro repositorio local, se usa el siguiente comando:
 ```Shell
 git fetch origin
 ```
