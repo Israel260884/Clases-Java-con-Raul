@@ -106,3 +106,11 @@ git checkout [nombre de la rama]
 ```Shell
 git push origin [nombre de la rama]
 ```
+
++ Para eliminar una rama **local** de nuestro repositorio, se usa el siguiente comando:
+```Shell
+git branch -d [nombre de la rama a eliminar]
+
++ Para eliminar una rama del **servidor**, se usa el siguiente comando:
+```Shell
+git push origin --delete [nombre de la rama a eliminar]
