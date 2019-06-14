@@ -1,13 +1,8 @@
 # Comandos de Git
 ## Comandos iniciales de Git
-+ Para visualizar los directorios/archivos que contengan una carpeta/directorio se usa el siguiente comando:
++Para notificar a nuestro repositorio local, se usa el siguiente comando:
 ```Shell
-ls
-```
-
-+ Para visualizar en que ruta/unidad de nuestro sistema está posicionado el terminal, usamos el siguiente comando:
-```Shell
-pwd
+git fetch origin
 ```
 
 + Para iniciar un proyecto nuevo, usando a GIT, usamos el siguiente comando:
@@ -120,4 +115,10 @@ git push origin --delete [nombre de la rama a eliminar]
 + Para crear una nueva rama y que el terminal nos posicione en ella, se usa el siguiente comando:
 ```Shell
 git checkout -b [nombre de la rama].
+```
+
++ Para identificar **Todas** las ramas de nuestro servidor, se usan los siguientes comandos:
+```Shell
+git fetch origin
+git branch - r
 ```
