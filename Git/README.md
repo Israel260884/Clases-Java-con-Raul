@@ -137,3 +137,22 @@ git merge [nombre de la rama que queremos traer los cambios]
 > Nota 2: Cuando realizamos el *Merge* y no hay conflictos, podemos hacer el *push* sin problemas.
 
 > Nota 3: Cuando haya conflictos, hay que solucionarlos (abrir el archivo, revisar el status, revisar la rama, etc).
+
+## Regresar a estados anteriores
+
++ Para ver el log de los commit e identificar su UUID, se usa el siguiente comando:
+```Shell
+git log
+```
+![imagen como se ve git log](imagenes/git-log.PNG)
+
++ Para verificar el contenido/cambios del commit, se usa el siguiente comando:
+```Shell
+git log -p
+```
+![imagen como se ve git log -p](imagenes/git-log-cambios-en-commit.PNG)
+
++ Para modificar los cambios a un estado anterior, se usa el siguiente comando:
+```Shell
+git checkout [UUID del commit al que se quiere regresar el cambio] [la ruta del archivo]
+```
