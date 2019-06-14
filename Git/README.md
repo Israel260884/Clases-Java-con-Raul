@@ -156,3 +156,9 @@ git log -p
 ```Shell
 git checkout [UUID del commit al que se quiere regresar el cambio] [la ruta del archivo]
 ```
+
+ + Para revertir cambios de un archivo, se usa el siguiente comando:
+ ```Shell
+ git checkout [ruta del archivo a revertir cambios]
+ ```
+ ![imagen del git checkout al revertir cambios](imagenes/git-checkout-revertir-cambios.PNG)
