@@ -1,5 +1,10 @@
 # Comandos de Git
 ## Comandos iniciales de Git
++ Para descargar los cambios de una rama, se usa el siguiente comando:
+```Shell
+git pull origin [nombre de la rama]
+```
+
 + Para notificar a nuestro repositorio local, se usa el siguiente comando:
 ```Shell
 git fetch origin
