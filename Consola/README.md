@@ -46,7 +46,7 @@ mkdir [nombre del nuevo directorio]
 ```
 > Hay que tener en cuenta que lo crea dentro del mismo directorio/carpeta, asi que si deseamos crearlo en otra ruta diferente, se debe de incluir la ruta completa.
 ```Shell
-mkdir /ruta del nuevo directorio 1/ ruta del nuevo directorio 2/.../ ruta del nuevo directorio n.../
+mkdir /ruta del nuevo directorio 1/ ruta del nuevo directorio 2/.../ ruta del nuevo directorio n/...
 ```
 
 + Para borrar un directorio o archivo, usamos el siguiente comando:
