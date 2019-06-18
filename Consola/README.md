@@ -44,7 +44,7 @@ cd [nombre del directorio 1/nombre del directorio 2/ nombre del directorio 3/...
 ```Shell
 mkdir [nombre del nuevo directorio]
 ```
-> Hay que tener en cuenta que lo crea dentro del mismo directorio/carpeta, asi que si deseamos crearlo en otra ruta diferente, se debe de incluir la ruta completa.
+> Hay que tener en cuenta que lo crea dentro del **mismo directorio/carpeta**, asi que si deseamos crearlo en otra **ruta diferente**, se debe de incluir la ruta completa.
 ```Shell
 mkdir /ruta del nuevo directorio 1/ ruta del nuevo directorio 2/.../ ruta del nuevo directorio n/...
 ```
@@ -57,4 +57,9 @@ rm [nombre del archivo con su extensión]
 + Si queremos borrar más archivos dentro del mismo directorio, se usa así:
 ```Shell
 rm -r /nombre del directorio/
+```
+
++ Para copiar un archivo, debemos primero indicar la ruta de origen del archivo a copiar y después indicar la ruta de destino **en ese orden**, lo usamos de la siguiente manera:
+```Shell
+cp [archivo origen/archivo con su extension /ruta del archivo destino/archivo con su extensión]
 ```
