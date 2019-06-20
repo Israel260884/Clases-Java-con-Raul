@@ -27,4 +27,16 @@ Los leguajes de programación se dividen en dos grupos:
 
 Las primeras computadoras se programaban directamente con el *lenguaje máquina* que estaba basado en el sistema binario usando el *0* y el *1* representando los impulsos electricos de los transistores y las pistas del *PCB* para así llevar a cabo las instrucciones que se les asignaba. El lenguaje de Bajo Nivel *siempre* ejerce un control directo del hardware y está condicionado al mismo con el cuál se le programó; no es posible que el mismo programa funcione en otra máquina/equipo diferente.
 
++ El lenguaje ensamblador es un ejemplo claro de Lenguaje de Bajo Nivel, usando expresiones (en inglés) traducen del programa ensamblador al lenguaje máquina a la velocidad de la computadora/equipo. El lenguaje puede ser comprendido por el humano, pero requiere ser traducido para que la máquina lo pueda interpretar.
+
+### Ventajas:
++ Su proceso de compilado es más rápido porque es cercano al *lenguaje máquina*
+
+### Desventajas:
++ No es comprensible o no se entiende para la mayoria de las personas que no tiene el conocimiento del lenguaje, sólo los programadores que se dedican y han practicado con algún Lenguaje de Bajo Nivel.
+
 ![ejemplo de lenguaje de bajo nivel](Imagenes/bajoNivel.jpg)
+
+## Lenguaje de Alto Nivel.
+
+El lenguaje de Alto Nivel se caracteriza por usar comandos, sintáxis y lenguaje entendible para el ser humano usando algoritmos de una manera adecuada para la capacidad cognitiva humana.
