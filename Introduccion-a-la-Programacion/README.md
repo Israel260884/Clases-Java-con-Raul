@@ -39,4 +39,24 @@ Las primeras computadoras se programaban directamente con el *lenguaje máquina*
 
 ## Lenguaje de Alto Nivel.
 
-El lenguaje de Alto Nivel se caracteriza por usar comandos, sintáxis y lenguaje entendible para el ser humano usando algoritmos de una manera adecuada para la capacidad cognitiva humana.
+El Lenguaje de Alto Nivel se caracteriza por usar comandos, sintáxis y lenguaje entendible para el ser humano usando algoritmos de una manera adecuada para la capacidad cognitiva humana.
+
+El Lenguaje de Alto Nivel tiene un nivel de *abstracción* que puede usar matrices, objetos (Programación Orientada a Objetos), arimética compleja, subrutinas y funciones, bucles, hilos y cierres.
+
+Conforme avanza la tecnología, los lenguajes de programación evolucionaron y se estan adaptando para tener una gramática más comprensible para el ser humano, usando sintáxsis, palabras o expresiones (por lo general en inglés) para facilitar el entendimiendo del mismo.
+
+### Ventajas:
++ Genera un código más sencillo y comprensible
+
++ Se puede usar el mismo código en cualquier máquina/equipo siempre que contenga la misma herramienta de desarrollo.
+
++ Puede soportar varios Sistemas Operativos para ejecutarse
+
+### Desventajas:
++ Su proceso de compilado es más tardado en comparación con el Lenguaje de Bajo Nivel ya que requiere que se compile y después interprete al *lenguaje máquina*
+
+![ejemplo de lenguaje de alto nivel 1](Imagenes/LenguajeAltoNivelJava.PNG)
+
+![ejemplode lenguaje de alto nivel 2](Imagenes/LenguajeAltoNivelPython.PNG)
+
+![Diferencia de los tipos de lenguajes de programacion](Imagenes/LenguajesDeProgramacion.jpg)
