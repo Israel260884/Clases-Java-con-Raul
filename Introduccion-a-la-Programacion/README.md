@@ -9,7 +9,22 @@
   Al proceso que aplica el programador/desarrollador en el cuál se escribe, se depura (de ser necesario), se compila y se mantiene el código fuente, es a lo que se le llama **Programa**, que a su vez es la que define la creación de **Software** mediante la aplicacion de ciertos procedimientos lógicos que sigue los siguientes pasos:
 
   1. Desarrollo lógico del programa para resolver un problema.
+
   2. Escritura del programa siguiendo sus reglas gramaticales (codificando).
+
   3. Ensamble o compilación para interpretarlo a lenguaje máquina.
+
   4. Prueba y depuracion del programa (si lo requiere).
+
   5. Desarrollo de la documentacion para llevar el control y el desarrollo del programa.
+
+Los leguajes de programación se dividen en dos grupos:
++ Lenguaje de Bajo Nivel.
+
++ Lenguaje de Alto Nivel.
+
+## Lenguaje de Bajo Nivel.
+
+Las primeras computadoras se programaban directamente con el *lenguaje máquina* que estaba basado en el sistema binario usando el *0* y el *1* representando los impulsos electricos de los transistores y las pistas del *PCB* para así llevar a cabo las instrucciones que se les asignaba. El lenguaje de Bajo Nivel *siempre* ejerce un control directo del hardware y está condicionado al mismo con el cuál se le programó; no es posible que el mismo programa funcione en otra máquina/equipo diferente.
+
+![ejemplo de lenguaje de bajo nivel](Imagenes/bajoNivel.jpg)
