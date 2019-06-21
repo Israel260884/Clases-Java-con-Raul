@@ -27,7 +27,7 @@ touch [nombre del archivo nuevo]
 
 + Para cambiar de directorios o carpetas superiores, se escribe el siguiente comando:
 ```Shell
-cd.. [nombre de la carpeta o unidad]
+cd ..[nombre de la carpeta o unidad]
 ```
 
 + Para cambiar de directorio/carpeta actual se escribe el siguiente comando:
@@ -37,7 +37,7 @@ cd [nombre del directorio/carpeta/unidad]
 
 + Para retroceder un directorio/carpeta de la actual, se escribe el siguiente comando:
 ```Shell
-cd - [nombre del directorio/carpeta/unidad]
+cd  -[nombre del directorio/carpeta/unidad]
 ```
 
 + Para ingresar en un directorio en específico, se escribe el siguiente comando:
