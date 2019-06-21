@@ -20,6 +20,11 @@ clear
 man [nombre del comando]
 ```
 
++ Para agregar un archivo nuevo dentro de una carpeta, se usa el siguiente comando:
+```Shell
+touch [nombre del archivo nuevo]
+```
+
 + Para cambiar de directorios o carpetas superiores, se escribe el siguiente comando:
 ```Shell
 cd.. [nombre de la carpeta o unidad]
