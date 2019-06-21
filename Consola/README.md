@@ -30,7 +30,7 @@ touch [nombre del archivo nuevo]
 cd ..[nombre de la carpeta o unidad]
 ```
 
-+ Para ingresa en un directorio/carpeta actual se escribe el siguiente comando:
++ Para ingresar en un directorio/carpeta actual se escribe el siguiente comando:
 ```Shell
 cd [nombre del directorio/carpeta/unidad]
 ```
