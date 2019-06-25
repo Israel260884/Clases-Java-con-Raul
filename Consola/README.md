@@ -54,6 +54,11 @@ mkdir [nombre del nuevo directorio]
 mkdir /ruta del nuevo directorio 1/ ruta del nuevo directorio 2/.../ ruta del nuevo directorio n/...
 ```
 
++ Para mover un directorio/carpeta sin copiarlo, usamos el siguiente comando:
+```Shell
+mv [ruta origen] [nombre del archivo con extension] [ruta destino] [nombre del archivo con extension]
+``` 
+
 + Para borrar un directorio o archivo, usamos el siguiente comando:
 ```Shell
 rm [nombre del archivo con su extensión]
