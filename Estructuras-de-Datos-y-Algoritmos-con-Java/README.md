@@ -30,3 +30,25 @@ Generalmente un diagrama de flujo representa un único punto de inicio y cierre.
 ![Ejemplo gráfico de un algoritmo](Imagenes/Representacion-de-un-algortimo.png)
 
 ![Ejemplo de un problema con automovil](Imagenes/ejemplo-diagrama-de-flujo-automovil-no-enciende.png)
+
+## **Pseudocódigo**
+
+El pseudocódigo es considerado cómo una descripción de un algoritmo que es totalmente independiente de los lenguajes de programación para que pueda ser interpretado por cualquier persona; se excluyen algunos datos que no son necesarios o irrelevantes.
+
+Hay que tener en cuenta que para desarrollar el pseudocódigo, se deben de tener en cuenta con diversos tipos de **Estructuras de Control** que son de tres clases:
+
++ Selectivas. Las instrucciones selectivas representan instrucciones que pueden o no ejecutarse, según el cumplimiento de una condición
+
++ Secuenciales. Las instrucciones se siguen en una secuencia fija que normalmente viene dada de arriba hacia abajo.
+
++ Iterativas. Representan la ejecución de instrucciones en más de una vez.
+
+La definición de los datos en el pseudocódigo se da por supuesta, sobre todo las variables sencillas, si se emplea formaciones cómo pilas, colas, vectores, o registros. Aquí se mencionan las más usuales e importantes:
+
+**Funciones y operaciones**. Las operaciones aritméticas se usan y representan de la forma usual que en matemáticas.
+
+**Bucles o condicionales**. Se repite mientras la condición sea cierta, si al llegar por primera vez la condición sea falsa, dependiendo de la estructura, puede repetirse o terminar la condición con dicha estructura.
+
+![Ejemplo de Pseudocódigo](Imagenes/estructura-de-un-pseudocodigo.jpg)
+
+![Ejemplo de una serie de instrucciones para responder una llamada telefónica](Imagenes/ejemplo-de-pseudocodigo-contestar-llamada-telefonica.gif)
