@@ -1,4 +1,4 @@
-# **ALGORTIMO**
+# **ALGORITMO**
 
 ## **Definición**
 
