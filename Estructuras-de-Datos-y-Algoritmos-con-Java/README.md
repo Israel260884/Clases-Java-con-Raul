@@ -26,3 +26,7 @@ Hay varias formas de representar un algoritmo; en programación veremos las 2 fo
 Los diagramas de flujo son una represanción gráfica y sencilla de un algoritmo fácil de comprender para cualquier persona que no necesariamente tenga conocimientos de computación o informática.
 
 Generalmente un diagrama de flujo representa un único punto de inicio y cierre. Los símbolos más representados en los diagramas de flujo son la **flecha** (que indica un sentido y una trayectoria), el **rectágulo** (que representa un proceso o evento), el **rombo** (una condición), el **círculo** (un punto de conexión de varios eventos o procesos).
+
+![Ejemplo gráfico de un algoritmo](Imagenes/Representacion-de-un-algortimo.png)
+
+![Ejemplo de un problema con automovil](Imagenes/ejemplo-diagrama-de-flujo-automovil-no-enciende.png)
