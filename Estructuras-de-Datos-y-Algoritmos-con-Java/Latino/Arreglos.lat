@@ -1,0 +1,5 @@
+arregloNumeros = [9,71,12,10,5]
+
+imprimir(arregloNumeros[1])
+
+
