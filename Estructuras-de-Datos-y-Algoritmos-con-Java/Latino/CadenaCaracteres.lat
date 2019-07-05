@@ -1,0 +1,12 @@
+letra_1 = "I"
+letra_2 = "s"
+letra_3 = "r"
+letra_4 = "a"
+letra_5 = "e"
+letra_6 = "l"
+
+imprimir("Hola2 " .. letra_1 .. letra_2 .. letra_3 .. letra_4 .. letra_5 .. letra_6)
+
+nombre = "Israel"
+
+imprimir("Hola " .. nombre) 
