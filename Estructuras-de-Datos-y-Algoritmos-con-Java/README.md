@@ -52,3 +52,13 @@ La definición de los datos en el pseudocódigo se da por supuesta, sobre todo l
 ![Ejemplo de Pseudocódigo](Imagenes/estructura-de-un-pseudocodigo.jpg)
 
 ![Ejemplo de una serie de instrucciones para responder una llamada telefónica](Imagenes/ejemplo-de-pseudocodigo-contestar-llamada-telefonica.gif)
+
+## **ESTRUCTURAS DE DATOS**
+
+# **Definición**
+
+La estructura de datos es una manera organizada para manejar datos de manera eficiente para usos tales cómo consulta, indexación de Internet, etc. La estructura de datos es clave para el diseño de algortimos eficientes y métodos en los lenguajes de programación.
+
+La estructura de datos en la programación son una forma de buscar la organización, manipulación, consulta e inserción de datos de una manera más eficiente.
+
+Los diferentes tipos de arreglos en las estructuras de datos son las siguientes:
