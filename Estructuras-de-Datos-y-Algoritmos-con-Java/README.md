@@ -62,3 +62,7 @@ La estructura de datos es una manera organizada para manejar datos de manera efi
 La estructura de datos en la programación son una forma de buscar la organización, manipulación, consulta e inserción de datos de una manera más eficiente.
 
 Los diferentes tipos de arreglos en las estructuras de datos son las siguientes:
+
+# **ARRAYS** (**Arreglos**)
+
+Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use) sólo se puede usar la memoria reservada o condicionada para éste arreglo y no puede haber cambios en la memoria.
