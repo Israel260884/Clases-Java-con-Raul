@@ -67,13 +67,16 @@ Los diferentes tipos de arreglos en las estructuras de datos son las siguientes:
 
 Las candenas son las estructura más simple y se define cómo una secuencia lineal de carácteres alfanuméricos que se pueden interpretar cómo un único dato. Su longitud puede ser fija o variable. Sobre los datos de tipo cadena, se pueden realizar las siguientes operaciones:
 
-1. **Asignación**. Se guarda un dato que puede ser una constante o una variable o una expresión que puede ser un dato tipo cadena. Por ejemplo:
+1. **Asignación.** Se guarda un dato que puede ser una constante; una variable o una expresión que puede ser un dato tipo cadena. Por ejemplo:
 ```Shell
 nombre <--- "Israel"
 nombre <--- mi-nombre-de-pila
 ```
 
- 
+2. **Concatenación.** Se forma una cadena a partir de otras 2 ya existentes *yuxtaponiendo* los carácteres de ambas cadenas. Se denota con // al operador de concatenación, ejemplo:
+```Shell
+"ab" // "cd" es "abcd"
+```
 
 
 ## **ARRAYS** (**Arreglos**)
