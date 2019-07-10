@@ -53,9 +53,9 @@ La definición de los datos en el pseudocódigo se da por supuesta, sobre todo l
 
 ![Ejemplo de una serie de instrucciones para responder una llamada telefónica](Imagenes/ejemplo-de-pseudocodigo-contestar-llamada-telefonica.gif)
 
-## **ESTRUCTURAS DE DATOS**
+# **ESTRUCTURAS DE DATOS**
 
-# **Definición**
+## **Definición**
 
 La estructura de datos es una manera organizada para manejar datos de manera eficiente para usos tales cómo consulta, *indexación de Internet*, etc. La estructura de datos es clave para el diseño de algortimos eficientes y métodos en los lenguajes de programación.
 
@@ -63,6 +63,19 @@ La estructura de datos en la programación son una forma de buscar la organizaci
 
 Los diferentes tipos de arreglos en las estructuras de datos son las siguientes:
 
-# **ARRAYS** (**Arreglos**)
+## **CADENAS**
+
+Las candenas son las estructura más simple y se define cómo una secuencia lineal de carácteres alfanuméricos que se pueden interpretar cómo un único dato. Su longitud puede ser fija o variable. Sobre los datos de tipo cadena, se pueden realizar las siguientes operaciones:
+
+1. **Asignación**. Se guarda un dato que puede ser una constante o una variable o una expresión que puede ser un dato tipo cadena. Por ejemplo:
+```Shell
+nombre <--- "Israel"
+nombre <--- mi-nombre-de-pila
+```
+
+ 
+
+
+## **ARRAYS** (**Arreglos**)
 
 Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use). El número de elementos se especifica cuándo se crea o se declara definiendo el número de dimensiones mínimos o máximos que se define cómo *Rango*.
