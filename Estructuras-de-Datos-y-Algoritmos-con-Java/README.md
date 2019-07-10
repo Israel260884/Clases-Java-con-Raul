@@ -57,7 +57,7 @@ La definición de los datos en el pseudocódigo se da por supuesta, sobre todo l
 
 # **Definición**
 
-La estructura de datos es una manera organizada para manejar datos de manera eficiente para usos tales cómo consulta, indexación de Internet, etc. La estructura de datos es clave para el diseño de algortimos eficientes y métodos en los lenguajes de programación.
+La estructura de datos es una manera organizada para manejar datos de manera eficiente para usos tales cómo consulta, *indexación de Internet*, etc. La estructura de datos es clave para el diseño de algortimos eficientes y métodos en los lenguajes de programación.
 
 La estructura de datos en la programación son una forma de buscar la organización, manipulación, consulta e inserción de datos de una manera más eficiente.
 
