@@ -78,6 +78,13 @@ nombre <--- mi-nombre-de-pila
 "ab" // "cd" es "abcd"
 ```
 
+Notese que las constantes de tipo cadena se escriben entre comillas para no confundirlos con nombres de variables u otros identificadores.
+
+
+3. **Extracción de subcadena.** Permite formar una cadena (subcadena) a partir de otra ya existente y la subcadena forma otro tramo consecutivo. Si NOMBRE es una variable de tipo cadena que contiene "ISRAEL ISAAC" y se denota por ( n : m ) la extracción de **m** caracteres tomados a partir del lugar **n** , entonces NOMBRE (8:5) es una subcadena que contiene a ISAAC.
+
+De igual manera se puede aplicar para obtener un sólo carácter. Usándo el ejemplo anterior NOMBRE (8:1) = "I".
+
 
 ## **ARRAYS** (**Arreglos**)
 
