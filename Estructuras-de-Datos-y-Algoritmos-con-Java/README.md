@@ -65,4 +65,4 @@ Los diferentes tipos de arreglos en las estructuras de datos son las siguientes:
 
 # **ARRAYS** (**Arreglos**)
 
-Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use) sólo se puede usar la memoria reservada o condicionada para éste arreglo y no puede haber cambios en la memoria.
+Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use). El número de elementos se especifica cuándo se crea o se declara definiendo el número de dimensiones mínimos o máximos que se define cómo *Rango*.
