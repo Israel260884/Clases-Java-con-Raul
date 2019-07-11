@@ -122,6 +122,32 @@ lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta
 | --- |
 | --- |
 
+De igual manera, se pueden realizar más operaciones con los arreglos sobre los vectores, son los siguientes :
+
++ **Asignación :** Es lo mismo que al asignar un valor a una varibale no dimensionada, ya que el vector representa lo mismo que una variable no dimensionada.
+```Shell
+A[20] = 5 asigna el valor 5 al elemento 20 del vector A
+A[17] = B asigna el valor de la variable B al elemento 17 del vector A
+```
+
++ **Acceso secuencial o recorrido del vector :** Consiste en recorrer todos los elementos de un vector o arreglo para someterlos a un determinado proceso, ya sea para introducir datos, visualizar su contenido, etc; se utiliza estructuras repetitivas, cuyas variables de control, se incremente en el bucle para dar el tratamiento en lo sucesivo a los elementos del vector.
+
+Ejemplo: Escribir un algoritmo para recorrer secuencialmente un vector H de 10 elementos (haciendo la lectura y escritura de cada elemento) primero con un bucle *desde* y luego con un bucle *mientras*.
+
+El pseudocódigo será el siguiente :
+```Shell
+desde i = 1 hasta 10 hacer   
+        leer(H[i])
+        escribir(H[i])
+fin_desde
+
+ i = 1
+ mientras i <= 10 hacer
+        leer(H[i])
+        escribir(H[i])
+        i = i + 1
+fin-mientras
+```
 
 
 
