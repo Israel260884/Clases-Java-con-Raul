@@ -98,4 +98,33 @@ De igual manera se puede aplicar para obtener un sólo carácter. Usándo el eje
 
 ## **ARRAYS** (**Arreglos**)
 
-Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use). El número de elementos se especifica cuándo se crea o se declara definiendo el número de dimensiones mínimos o máximos que se define cómo *Rango*.
+Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use). El número de elementos se especifica cuándo se crea o se declara definiendo el número de dimensiones mínimos o máximos que se define cómo *Rango*. Dependiendo del rango hay diferentes tipos de arreglos :
+
+### **Arreglos unidimensionales (vectores)**
+
+Por su simplicidad y mayor frecuencia de uso con los arreglos, los vectores presentan una ventaja en ser estructuras ordenadas cuando son estructuras lineales o de una sola dimensión. La declaración de un vector supone una reserva de espacio, asumiendo que, se asigne valores a cada uno de sus elementos; ya que si no se asigna un valor a un elemento, sólo se tendrá una estructura vacía.
+
+ Es posible que se puedan implementar arreglos cuyos elementos sean a su vez cadenas o elementos de otro tipo, asi cómo se muestra en el siguiente ejemplo en la fase declarativa :
+ ```Shell
+tipo : palabra = cadena[16]
+COCHES = vector [1..9]de palabra
+```
+lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta 16 carácteres o elementos en cada cadena, pueden contener imformación de ésta manera :
+
+|Alfa Romeo|
+-----------
+|**Fiat**|
+|**Ford**|
+|**Lancia**|
+|**Renault**|
+|**Seat**|
+| --- |
+| --- |
+| --- |
+
+
+
+
+### **Arreglos bidimensionales (matrices)**
+
+### **Arreglos multidimensionales**
