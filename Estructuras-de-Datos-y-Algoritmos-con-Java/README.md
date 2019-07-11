@@ -174,6 +174,33 @@ Se examina ahora el número central **3005**, situado en la posición 7, que res
 Finalmente encontramos que el valor buscado coincide con el central. Nótese que si el valor buscado hubiera sido, por ejemplo, el **2900**, la búsqueda habría finalizado
 con fracaso, ya que, dentro del arreglo previamente ordenado no existe el valor de **2900**
 
+La busqueda binaria podemos también representarla en un algoritmo en forma de pseudocódigo, se muestra en el siguiente ejemplo :
+
+Para encontrar un elemento **K** en un arreglo de elementos **X(1), X(2),...,X(n),** previamente clasificados y ordenados de forma ascendente (si los datos son numéricos, de forma creciente y alfabéticamente si son carácteres). El proceso de búsqueda debe de terminar si se encontró el valor deseado con *la búsqueda ha tenido éxito* o bién con *la búsqueda no ha tenido éxito* en caso de no ubicar o encontrar el valor deseado; deberá de regresar a la posición del elemento buscado dentro del arreglo. las variables enteras **BAJO, CENTRAL, ALTO**, indican los límites inferior, central y superior del intervalo de la búsqueda, en cada subvector que sucesivamente se está considerando, durante la búsqueda binaria.
+```Shell
+Algoritmo Busqueda_Binaria
+X : vector de N elementos
+K : valor deseado de busqueda
+
+inicio
+    BAJO = 1
+    ALTO = N
+    CENTRAL = ent (BAJO + ALTO / 2)
+    mientras BAJO < ALTO y X [CENTRAL] <> K hacer
+    si K < X [CENTRAL]
+        entonces
+          ALTO = CENTRAL - 1
+          si_no
+          BAJO = CENTRAL + 1
+    fin_si
+      CENTRAL = ent (BAJO + ALTO / 2)
+    fin_mientras
+      si K = X [CENTRAL]
+      entonces_escribir "Valor encontrado en :" CENTRAL
+      si_no escribir "Valor no encontrado"
+    fin_si
+fin   
+```
 
 ### **Arreglos bidimensionales (matrices)**
 
