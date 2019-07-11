@@ -52,3 +52,79 @@ La definición de los datos en el pseudocódigo se da por supuesta, sobre todo l
 ![Ejemplo de Pseudocódigo](Imagenes/estructura-de-un-pseudocodigo.jpg)
 
 ![Ejemplo de una serie de instrucciones para responder una llamada telefónica](Imagenes/ejemplo-de-pseudocodigo-contestar-llamada-telefonica.gif)
+
+# **ESTRUCTURAS DE DATOS**
+
+## **Definición**
+
+La estructura de datos es una manera organizada para manejar datos de manera eficiente para usos tales cómo consulta, *indexación de Internet*, etc. La estructura de datos es clave para el diseño de algortimos eficientes y métodos en los lenguajes de programación.
+
+La estructura de datos en la programación son una forma de buscar la organización, manipulación, consulta e inserción de datos de una manera más eficiente.
+
+Los diferentes tipos de arreglos en las estructuras de datos son las siguientes:
+
+## **CADENAS**
+
+Las candenas son las estructura más simple y se define cómo una secuencia lineal de carácteres alfanuméricos que se pueden interpretar cómo un único dato. Su longitud puede ser fija o variable. Sobre los datos de tipo cadena, se pueden realizar las siguientes operaciones:
+
+1. **Asignación.** Se guarda un dato que puede ser una constante; una variable o una expresión que puede ser un dato tipo cadena. Por ejemplo:
+```Shell
+nombre <--- "Israel"
+nombre <--- mi-nombre-de-pila
+```
+
+2. **Concatenación.** Se forma una cadena a partir de otras 2 ya existentes *yuxtaponiendo* los carácteres de ambas cadenas. Se denota con // al operador de concatenación, ejemplo:
+```Shell
+"ab" // "cd" es "abcd"
+```
+
+Notese que las constantes de tipo cadena se escriben entre comillas para no confundirlos con nombres de variables u otros identificadores.
+
+
+3. **Extracción de subcadena.** Permite formar una cadena (subcadena) a partir de otra ya existente y la subcadena forma otro tramo consecutivo. Si NOMBRE es una variable de tipo cadena que contiene "ISRAEL ISAAC" y se denota por ( n : m ) la extracción de **m** carácteres tomados a partir del lugar **n** , entonces NOMBRE (8:5) es una subcadena que contiene a ISAAC.
+
+De igual manera se puede aplicar para obtener un sólo carácter. Usándo el ejemplo anterior NOMBRE (8:1) = "I".
+
+4. **Obtener la longitud de la cadena.** La longitud de la cadena es un dato tipo entero, cuyo valor es el número de carácteres que contiene ésta. La longitud se obtiene consultando el número de la primera casilla y de igual forma se puede obtener con la última casilla restando -1.
+
+5. **Comparación de cadenas.** Consiste en comparar dos cadenas carácter a carácter comenzando por el primero de la izquierda; el orden de comparación viene dado por el código de *ASCII* . Así la expresion booleana: "Jose" < "Julio" se evaluará cómo verdadera, ya que las mayúsculas y las minúsculas en el código *ASCII* tienen valores diferentes.
+
+![Ejemplo de una cadena](Imagenes/ejemplo-de-cadena.jpg)
+
+![Segundo ejemplo de una cadena](Imagenes/ejemplo-de-cadena-2.jpg)
+
+![Tercer ejemplo de una cadena](Imagenes/ejemplo-de-cadena-3.jpg)
+
+
+## **ARRAYS** (**Arreglos**)
+
+Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use). El número de elementos se especifica cuándo se crea o se declara definiendo el número de dimensiones mínimos o máximos que se define cómo *Rango*. Dependiendo del rango hay diferentes tipos de arreglos :
+
+### **Arreglos unidimensionales (vectores)**
+
+Por su simplicidad y mayor frecuencia de uso con los arreglos, los vectores presentan una ventaja en ser estructuras ordenadas cuando son estructuras lineales o de una sola dimensión. La declaración de un vector supone una reserva de espacio, asumiendo que, se asigne valores a cada uno de sus elementos; ya que si no se asigna un valor a un elemento, sólo se tendrá una estructura vacía.
+
+ Es posible que se puedan implementar arreglos cuyos elementos sean a su vez cadenas o elementos de otro tipo, asi cómo se muestra en el siguiente ejemplo en la fase declarativa :
+ ```Shell
+tipo : palabra = cadena[16]
+COCHES = vector [1..9]de palabra
+```
+lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta 16 carácteres o elementos en cada cadena, pueden contener imformación de ésta manera :
+
+|Alfa Romeo|
+|----------|
+|**Fiat**  |
+|**Ford**  |
+|**Lancia**|
+|**Renault**|
+|**Seat**|
+| --- |
+| --- |
+| --- |
+
+
+
+
+### **Arreglos bidimensionales (matrices)**
+
+### **Arreglos multidimensionales**
