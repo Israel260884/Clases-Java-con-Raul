@@ -81,9 +81,9 @@ nombre <--- mi-nombre-de-pila
 Notese que las constantes de tipo cadena se escriben entre comillas para no confundirlos con nombres de variables u otros identificadores.
 
 
-3. **Extracción de subcadena.** Permite formar una cadena (subcadena) a partir de otra ya existente y la subcadena forma otro tramo consecutivo. Si NOMBRE es una variable de tipo cadena que contiene "ISRAEL ISAAC" y se denota por ( n : m ) la extracción de **m** carácteres tomados a partir del lugar **n** , entonces NOMBRE (8:5) es una subcadena que contiene a ISAAC.
+3. **Extracción de subcadena.** Permite formar una cadena (subcadena) a partir de otra ya existente y la subcadena forma otro tramo consecutivo. Si **NOMBRE** es una variable de tipo cadena que contiene **"ISRAEL ISAAC"** y se denota por **(n : m)** la extracción de **m** carácteres tomados a partir del lugar **n** , entonces **NOMBRE** (8:5) es una subcadena que contiene a **"ISAAC"**.
 
-De igual manera se puede aplicar para obtener un sólo carácter. Usándo el ejemplo anterior NOMBRE (8:1) = "I".
+De igual manera se puede aplicar para obtener un sólo carácter. Usándo el ejemplo anterior NOMBRE (8:1) = **"I"**.
 
 4. **Obtener la longitud de la cadena.** La longitud de la cadena es un dato tipo entero, cuyo valor es el número de carácteres que contiene ésta. La longitud se obtiene consultando el número de la primera casilla y de igual forma se puede obtener con la última casilla restando -1.
 
@@ -148,7 +148,27 @@ fin_desde
         i = i + 1
 fin-mientras
 ```
++ **Búsqueda binaria :** Se aplica para vectores o elementos que han sido previamente ordenados. Se le conoce cómo "divide y vencerás" para localizar el valor deseado. El algoritmo de búsqueda binaria consiste en los siguientes pasos :
 
+1. Examinar el elemento central del arreglo o vector; si es el mismo valor deseado, entonces la búsqueda termina.
+
+2. En caso contrario, se determina si el elemento buscado se encuentra en la primera o segunda mitad del arreglo o vector (de ahí el nombre de binario) y así repite el proceso hasta encontrar el valor deseado, utilizando el elemento central del subvector.
+
+Como ejemplo, el siguiente arreglo ordenado de nueve elementos, vamos a buscar el valor **2983**
+
+![Se muestra el arreglo de nueve elementos](Imagenes/arreglo-busqueda-binaria.jpg)   
+
+Para buscar el elemento **2983**, se examina el número central **2898**, situado en la quinta posición. Al ser **2983 mayor que 2898**, se desprecia
+la primera mitad del vector, quedándonos con la segunda :
+
+![Se muestra la primera mitad del arreglo en dónde puede estar el valor deseado](Imagenes/arreglo-busqueda-binaria-primera-busqueda.jpg)
+
+Se examina ahora el número central **3005**, situado en la posición 7, que resulta ser distinto. Al ser **2983 menor que 3005**, nos quedamos con la primera mitad del vector :
+
+![Se muestra que en la segunda mitad del arreglo se encuentra el valor deseado](Imagenes/arreglo-busqueda-binaria-busqueda-finalizada.jpg)
+
+Finalmente encontramos que el valor buscado coincide con el central. Nótese que si el valor buscado hubiera sido, por ejemplo, el **2900**, la búsqueda habría finalizado
+con fracaso, ya que, dentro del arreglo previamente ordenado no existe el valor de **2900**
 
 
 ### **Arreglos bidimensionales (matrices)**
