@@ -114,7 +114,9 @@ lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta
 |Alfa Romeo|
 -----------
 |**Fiat**|
+----------
 |**Ford**|
+-----------
 |**Lancia**|
 |**Renault**|
 |**Seat**|
