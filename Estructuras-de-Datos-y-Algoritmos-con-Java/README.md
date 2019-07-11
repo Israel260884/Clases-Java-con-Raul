@@ -199,7 +199,9 @@ inicio
       entonces_escribir "Valor encontrado en :" CENTRAL
       si_no escribir "Valor no encontrado"
     fin_si
-fin   
+fin
+
+//*La funcion ent, se entiende que obtiene un entero redondeándolo por defecto*//  
 ```
 
 ### **Arreglos bidimensionales (matrices)**
