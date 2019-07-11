@@ -89,6 +89,13 @@ De igual manera se puede aplicar para obtener un sólo carácter. Usándo el eje
 
 5. **Comparación de cadenas.** Consiste en comparar dos cadenas carácter a carácter comenzando por el primero de la izquierda; el orden de comparación viene dado por el código de *ASCII* . Así la expresion booleana: "Jose" < "Julio" se evaluará cómo verdadera, ya que las mayúsculas y las minúsculas en el código *ASCII* tienen valores diferentes.
 
+![Ejemplo de una cadena](Imagenes/ejemplo-de-cadena.jpg)
+
+![Segundo ejemplo de una cadena](Imagenes/ejemplo-de-cadena-2.jpg)
+
+![Tercer ejemplo de una cadena](Imagenes/ejemplo-de-cadena-3.jpg)
+
+
 ## **ARRAYS** (**Arreglos**)
 
 Es una estructura que almacena datos en un tamaño asignado en la memoria; en éste tipo de arreglos (dependiendo del tipo de dato que se use). El número de elementos se especifica cuándo se crea o se declara definiendo el número de dimensiones mínimos o máximos que se define cómo *Rango*.
