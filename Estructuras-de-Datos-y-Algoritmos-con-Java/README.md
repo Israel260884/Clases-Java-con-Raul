@@ -112,11 +112,9 @@ COCHES = vector [1..9]de palabra
 lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta 16 carácteres o elementos en cada cadena, pueden contener imformación de ésta manera :
 
 |Alfa Romeo|
------------
-|**Fiat**|
-----------
-|**Ford**|
------------
+|----------|
+|**Fiat**  |
+|**Ford**  |
 |**Lancia**|
 |**Renault**|
 |**Seat**|
