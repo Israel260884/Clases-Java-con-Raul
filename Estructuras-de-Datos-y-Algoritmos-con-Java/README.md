@@ -109,7 +109,7 @@ Por su simplicidad y mayor frecuencia de uso con los arreglos, los vectores pres
 tipo : palabra = cadena[16]
 COCHES = vector [1..9]de palabra
 ```
-lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta 16 carácteres o elementos en cada cadena, pueden contener imformación de ésta manera :
+lo que permite tener en un solo vector hasta 9 cadenas que pueden contener hasta 16 carácteres o elementos en cada cadena, se despliega la información de ésta manera :
 
 |Alfa Romeo|
 |----------|
