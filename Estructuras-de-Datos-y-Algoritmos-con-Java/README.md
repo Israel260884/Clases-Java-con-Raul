@@ -104,6 +104,10 @@ Es una estructura que almacena datos en un tamaño asignado en la memoria; en é
 
 Por su simplicidad y mayor frecuencia de uso con los arreglos, los vectores presentan una ventaja en ser estructuras ordenadas cuando son estructuras lineales o de una sola dimensión. La declaración de un vector supone una reserva de espacio, asumiendo que, se asigne valores a cada uno de sus elementos; ya que si no se asigna un valor a un elemento, sólo se tendrá una estructura vacía.
 
+![Ejemplo de un arreglo unidimensional](Imagenes/ejemplo-de-arreglo-unidimensional.jpg)
+
+![Segundo ejemplo de un arreglo unidimensional](Imagenes/ejemplo-de-un-arreglo-unidimensional-2.jpg)
+
  Es posible que se puedan implementar arreglos cuyos elementos sean a su vez cadenas o elementos de otro tipo, asi cómo se muestra en el siguiente ejemplo en la fase declarativa :
  ```Shell
 tipo : palabra = cadena[16]
