@@ -257,9 +257,8 @@ inicio
 fin  
 ```
 
-
-
-
 ### **Arreglos bidimensionales (matrices)**
 
-### **Arreglos multidimensionales**
+Los arreglos bidimensionales o **matrices** son un conjunto de elementos del mismo tipo en el que sus componentes vienen definidos por dos vectores. El primero es referido a la fila y el segundo a la columna. Cada fila y columna pueden tener **N** elementos siendo representado **[N-Filas] [N-Columnas].**
+
+![Ejemplo de un arreglo bidimensional o matriz](Imagenes/ejemplo-de-matriz.PNG)
