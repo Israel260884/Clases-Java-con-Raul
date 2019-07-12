@@ -228,16 +228,16 @@ fin
 
 Ya que se insertaron los elementos, las tablas se verán así :
 
-|Alfa Romeo||Alfa Romeo||Alfa Romeo|
-|----------||----------||----------|
-|Fiat||Fiat||Citröen|
-|Ford||Ford||Fiat|
-|Lancia||Lancia||Ford|
-|Renault||Opel||Lancia|
-|Seat||Renault||Opel|
-|---||Seat||Renault|
-|---||---||Seat|
-|---||---||---|
+|Alfa Romeo| Alfa Romeo| Alfa Romeo|
+|----------|----------|----------|
+|**Fiat**|**Fiat**|**Citröen**|
+|**Ford**|**Ford**|**Fiat**|
+|**Lancia**|**Lancia**|**Ford**|
+|**Renault**|**Opel**|**Lancia**|
+|**Seat**|**Renault**|**Opel**|
+|---|**Seat**|**Renault**|
+|---|---|**Seat**|
+|---|---|---|
 
 
 
