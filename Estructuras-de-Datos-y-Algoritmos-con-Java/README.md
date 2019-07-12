@@ -239,7 +239,8 @@ Ya que se insertaron los elementos, las tablas se verán así :
 |---|---|**Seat**|
 |---|---|---|
 
-+ **Eliminar datos de un arreglo :**
++ **Eliminar datos de un arreglo.**
+
 La operación de borrar es distinta, según el elemento a eliminar se encuentre al final del vector (no presenta ningún problema) o se borre un elemento
 del interior de mismo vector. En este último la eliminación provocará el movimiento hacia arriba de los elementos posteriores a él para reorganizar el
 vector. El algoritmo de borrado del dato almacenado en el elemento j-ésimo del vector COCHES es el siguiente:
