@@ -204,6 +204,43 @@ fin
 //*La funcion ent, se entiende que obtiene un entero redondeándolo por defecto*//  
 ```
 
++ **Insertar datos en un arreglo**
+
+Consiste en ingresar nuevos elementos al arreglo en una determinada posición del arreglo, conllevando a no perder la información, que pudiera hallarse anteriormente, en la posición que va a ocupar el elemento nuevo. Es necesario comprobar el espacio en memoria suficiente dentro del arreglo para el nuevo valor. Cada que se inserta un valor nuevo en una determinada posición, el resto de los elementos se recorren hacia abajo, poniendo especial cuidado en que no se pierda ninguno de los datos anteriores.
+
+Considerando el vector ya visto de los COCHES, ahora vamos a insertar dos nuevas marcas OPEL y CITRÖEN manteniendo su orden alfabético del arreglo. Como Opel está comprendido entre Lancia y Renault, se deberán desplazar hacia abajo los elementos 5 y 6, que pasarán a ocupar la posición relativa 6 y 7. Posteriormente
+debe realizarse la misma operación con Citröen que ocupará la posición 2. El algoritmo que realiza esta operación para un vector de n elementos es el siguiente, suponiendo que hay espacio suficiente en el vector, y que conocemos la posición, que designaremos por P, que debe ocupar el elemento a insertar. Por ejemplo, la primera inserción, supone que Opel debe ocupar la posición P = 5.  
+```Shell
+i = n {indicar el númeri de posiciones del arreglo que ya están ocupados}
+
+mientras i >= P hacer
+        {mover el elemento actual i-ésimo hacia abajo, a la posición i + 1}
+        COCHES [i + 1] = COCHES [i]
+        {decrementar contador}
+        i = i - 1
+fin_mientras
+  {insertar elemento en la posición P}
+        COCHES [P] = "Opel"
+  {actualizar el contador de elementos del vector}
+  n = n + 1 {el vector acaba con un elemento más ocupado por datos}
+fin     
+```
+
+Ya que se insertaron los elementos, las tablas se verán así :
+
+|Alfa Romeo|  |Alfa Romeo|  |Alfa Romeo|
+|----------|  |----------|  |----------|
+|Fiat|        |Fiat|        |Citröen|
+|Ford|        |Ford|        |Fiat|
+|Lancia|      |Lancia|      |Ford|
+|Renault|     |Opel|        |Lancia|
+|Seat|        |Renault|     |Opel|
+|---|         |Seat|        |Renault|
+|---|         |---|         |Seat|
+|---|         |---|         |---|
+
+
+
 ### **Arreglos bidimensionales (matrices)**
 
 ### **Arreglos multidimensionales**
